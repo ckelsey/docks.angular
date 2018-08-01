@@ -1,6 +1,7 @@
 {
   "name": "docks-angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "main": "src/modules/docks/docks.module.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
