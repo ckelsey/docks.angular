@@ -1,0 +1,70 @@
+.documentation-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    td,
+    th {
+        vertical-align: top;
+        padding: 14px;
+        font-size: 12px;
+    }
+    th {
+        background: rgb(161, 143, 116);
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    td {
+        background: rgba(9, 54, 84, 0.05);
+        .red-flag {
+            font-family: monospace;
+        }
+    }
+    td:nth-child(1) {
+        font-weight: bold;
+    }
+    td.type {
+        text-transform: lowercase;
+    }
+    tbody tr:nth-child(even)>td {
+        background: rgba(9, 54, 84, 0.1);
+    }
+    td td,
+    td th {
+        padding: 7px;
+    }
+    td pre {
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        background: rgba(255, 255, 255, 0.61);
+        padding: 7px;
+        margin: 0px;
+    }
+    .argument-container {
+        margin: 0px 0px 14px;
+        .argument-name {
+            background: rgba(35, 70, 100, 0.15);
+            padding: 7px;
+        }
+        .argument-object {
+            padding: 5px 7px;
+            background: rgba(255, 255, 255, 0.85);
+        }
+        &:last-child {
+            margin: 0px;
+        }
+    }
+    .noTest {
+        background: #a10005;
+        color: #fff;
+        padding: 3px;
+        * {
+            color: #fff;
+        }
+        .json-formatter-row,
+        .json-formatter-row a,
+        .json-formatter-row a:hover {
+            color: #fff;
+        }
+    }
+}

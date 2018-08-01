@@ -1,0 +1,43 @@
+<article class="doc-element" *ngIf="service.states.view === 'components' && service.doc.name">
+    <div class="h1 title">{{ service.doc.name }}
+        <span class="subtitle" *ngIf="service.doc.description">{{ service.doc.description }}</span>
+    </div>
+    <section *ngIf="service.doc.body">
+        <div [innerHTML]="service.doc.body"></div>
+    </section>
+    <section *ngIf="service.doc.group === 'components'">
+        <div class="h2" (click)="service.states.demo = !service.states.demo" [ngClass]="service.states.demo ? 'active' : ''">Demo</div>
+        <div *ngIf="service.states.demo">
+            <div>
+                <pre class="demo"><code>{{service.getMarkup(service.doc)}}</code></pre>
+            </div>
+            <div>
+                <!-- <button (click)="launch(service.doc)">Launch demo</button> -->
+            </div>
+            <div id="demo-overlay-container" *ngIf="service.states.demoOverlay">
+                <div id="demo-overlay-close" (click)="service.states.demoOverlay = false">x</div>
+                <div id="demo-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <section *ngIf="hasProperties('attributeProperties')">
+        <div class="h2" (click)="service.states.props = !service.states.props" [ngClass]="service.states.props ? 'active' : ''">Attribute properties</div>
+        <app-table-renderer [show]="service.states.props" [properties]="attributeProps"></app-table-renderer>
+    </section>
+
+    <section *ngIf="hasProperties('properties')">
+        <div class="h2" (click)="service.states.dataProps = !service.states.dataProps" [ngClass]="service.states.dataProps ? 'active' : ''">Properties</div>
+        <app-table-renderer [show]="service.states.dataProps" [properties]="properties"></app-table-renderer>
+    </section>
+
+    <section *ngIf="hasProperties('getters')">
+        <div class="h2" (click)="service.states.getters = !service.states.getters" [ngClass]="service.states.getters ? 'active' : ''">Getters</div>
+        <app-table-renderer [show]="service.states.getters" [properties]="gettersProps"></app-table-renderer>
+    </section>
+
+    <section *ngIf="hasProperties('methods')">
+        <div class="h2" (click)="service.states.methods = !service.states.methods" [ngClass]="service.states.methods ? 'active' : ''">Methods</div>
+        <app-table-renderer [show]="service.states.methods" [properties]="methods"></app-table-renderer>
+    </section>
+</article>

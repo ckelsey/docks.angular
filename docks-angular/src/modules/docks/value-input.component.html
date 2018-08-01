@@ -1,0 +1,6 @@
+<div class="value-input">
+    <textarea *ngIf="showTextarea()" [(ngModel)]="proxyModel" (input)="updateVal"></textarea>
+    <!-- <input type="number" *ngIf="type === 'number'" [(ngModel)]="proxyModel" (input)="updateVal">
+    <input type="text" *ngIf="type === 'string'" [(ngModel)]="proxyModel" (input)="updateVal">
+    <input type="checkbox" *ngIf="type === 'boolean'" [(ngModel)]="proxyModel" (input)="updateVal"> -->
+</div>

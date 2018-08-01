@@ -1,0 +1,36 @@
+<table *ngIf="show" class="documentation-table">
+    <thead>
+        <tr>
+            <th *ngFor="let column of properties.columns; let key = index">{{column.label}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of propertiesDataKeys; let rowIndex = index">
+            <td *ngFor="let column of properties.columns; let key = index" [ngClass]="column.label">
+                <!-- <div v-if="column.key === 'value' && properties.data[row]">
+                    <app-value-input [model]="properties.data[row]"></app-value-input>
+                </div> -->
+                <div *ngIf="showText(column.key)">
+                    <app-json-viewer *ngIf="showJsonViewer(properties.data[row][column.key])" [json]="properties.data[row][column.key]"></app-json-viewer>
+                    <div *ngIf="isString(properties.data[row][column.key])" [innerHTML]="properties.data[row][column.key]"></div>
+                </div>
+                <div *ngIf="hasArguments(row, column.key)">
+                    <div *ngFor="let argument of properties.data[row][column.key]" class="argument-container">
+                        <div class="argument-name">
+                            <b>{{argument.name}}</b>
+                            <span *ngIf="argument.isOptional">: (optional)</span>
+                            <span class="argument-body" *ngIf="argument.description"> - {{argument.description}}</span>
+                        </div>
+                        <div class="argument-body red-flag" *ngIf="!argument.description">missing description</div>
+                        <div class="argument-object" *ngIf="argument.type">
+                            <app-json-viewer *ngIf="showJsonViewer(argument.type)" [json]="argument.type"></app-json-viewer>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="column.key === 'testCases'" [ngClass]="{noTest: !hasTest(row, column.key)}">
+                    <app-json-viewer *ngIf="showJsonViewer(properties.data[row][column.key])" [json]="properties.data[row][column.key]"></app-json-viewer>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

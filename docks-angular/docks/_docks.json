@@ -1,0 +1,4922 @@
+{
+	"id": 0,
+	"name": "docks-angular",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 1,
+			"name": "AppComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"decorators": [
+				{
+					"name": "Component",
+					"type": {
+						"type": "reference",
+						"name": "Component"
+					},
+					"arguments": {
+						"obj": "{\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.css']\n}"
+					}
+				}
+			],
+			"children": [
+				{
+					"id": 3,
+					"name": "docs",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "app/app.component.ts",
+							"line": 11,
+							"character": 6
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": " require('../../docks/docks.json')"
+				},
+				{
+					"id": 2,
+					"name": "title",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "app/app.component.ts",
+							"line": 10,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "\"docks-angular\""
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						3,
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "app/app.component.ts",
+					"line": 9,
+					"character": 25
+				}
+			]
+		},
+		{
+			"id": 254,
+			"name": "AppModule",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"decorators": [
+				{
+					"name": "NgModule",
+					"type": {
+						"type": "reference",
+						"name": "NgModule"
+					},
+					"arguments": {
+						"obj": "{\n  declarations: [\n    AppComponent\n  ],\n  imports: [\n    BrowserModule,\n    DocksModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n}"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "app/app.module.ts",
+					"line": 18,
+					"character": 22
+				}
+			]
+		},
+		{
+			"id": 109,
+			"name": "DocksComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"decorators": [
+				{
+					"name": "Component",
+					"type": {
+						"type": "reference",
+						"name": "Component"
+					},
+					"arguments": {
+						"obj": "{\n    selector: 'app-docks',\n    templateUrl: './docks.component.html',\n    styleUrls: ['./docks.component.scss']\n}"
+					}
+				}
+			],
+			"children": [
+				{
+					"id": 110,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 111,
+							"name": "new DocksComponent",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"name": "DocksComponent",
+								"id": 109
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/docks.component.ts",
+							"line": 10,
+							"character": 47
+						}
+					]
+				},
+				{
+					"id": 117,
+					"name": "componentClasses",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Input",
+							"type": {
+								"type": "reference",
+								"name": "Input"
+							},
+							"arguments": {
+								"bindingPropertyName": "'componentClasses'"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/docks.component.ts",
+							"line": 27,
+							"character": 20
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 114,
+					"name": "docs",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Input",
+							"type": {
+								"type": "reference",
+								"name": "Input"
+							},
+							"arguments": {
+								"bindingPropertyName": "'docs'"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/docks.component.ts",
+							"line": 18,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 115,
+					"name": "initial",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Input",
+							"type": {
+								"type": "reference",
+								"name": "Input"
+							},
+							"arguments": {
+								"bindingPropertyName": "'initial'"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/docks.component.ts",
+							"line": 21,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 112,
+					"name": "service",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/docks.component.ts",
+							"line": 14,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "DocumentationService",
+						"id": 7
+					},
+					"defaultValue": " DocumentationService"
+				},
+				{
+					"id": 113,
+					"name": "testService",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/docks.component.ts",
+							"line": 15,
+							"character": 15
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "TestService",
+						"id": 45
+					},
+					"defaultValue": " TestService"
+				},
+				{
+					"id": 116,
+					"name": "tests",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Input",
+							"type": {
+								"type": "reference",
+								"name": "Input"
+							},
+							"arguments": {
+								"bindingPropertyName": "'tests'"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/docks.component.ts",
+							"line": 24,
+							"character": 9
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 118,
+					"name": "launch",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 119,
+							"name": "launch",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 120,
+									"name": "doc",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/docks.component.ts",
+							"line": 29,
+							"character": 10
+						}
+					]
+				},
+				{
+					"id": 121,
+					"name": "ngOnInit",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 122,
+							"name": "ngOnInit",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/docks.component.ts",
+							"line": 32,
+							"character": 12
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						110
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						117,
+						114,
+						115,
+						112,
+						113,
+						116
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						118,
+						121
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "modules/docks/docks.component.ts",
+					"line": 10,
+					"character": 27
+				}
+			],
+			"implementedTypes": [
+				{
+					"type": "reference",
+					"name": "OnInit"
+				}
+			]
+		},
+		{
+			"id": 253,
+			"name": "DocksModule",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"decorators": [
+				{
+					"name": "NgModule",
+					"type": {
+						"type": "reference",
+						"name": "NgModule"
+					},
+					"arguments": {
+						"obj": "{\n  imports: [\n    CommonModule,\n    FormsModule\n  ],\n  declarations: [\n    DocksComponent,\n    SidebarComponent,\n    RendererComponent,\n    TableRendererComponent,\n    JsonViewerComponent,\n    ViewerInputComponent\n  ],\n  exports: [DocksComponent]\n}"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "modules/docks/docks.module.ts",
+					"line": 26,
+					"character": 24
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "DocumentationService",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"children": [
+				{
+					"id": 10,
+					"name": "DocsData",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 4,
+							"character": 12
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 8,
+					"name": "doc",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 2,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 9,
+					"name": "openedDoc",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 3,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "\"doc-active-dropdown\""
+				},
+				{
+					"id": 37,
+					"name": "docName",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 38,
+							"name": "docName",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 39,
+									"name": "doc",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 57,
+							"character": 11
+						}
+					]
+				},
+				{
+					"id": 31,
+					"name": "getMarkup",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 32,
+							"name": "getMarkup",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 33,
+									"name": "doc",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 35,
+							"character": 13
+						}
+					]
+				},
+				{
+					"id": 40,
+					"name": "getThis",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 41,
+							"name": "getThis",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"tags": [
+									{
+										"tag": "desc",
+										"text": "Navigates an object or array to find a value\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 42,
+									"name": "el",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "The starting object"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 43,
+									"name": "path",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "String to follow"
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "Array",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												]
+											},
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										]
+									}
+								},
+								{
+									"id": 44,
+									"name": "emptyVal",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"text": "What is returned if undefined"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 72,
+							"character": 11
+						}
+					]
+				},
+				{
+					"id": 34,
+					"name": "json",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 35,
+							"name": "json",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 36,
+									"name": "obj",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 47,
+							"character": 8
+						}
+					]
+				},
+				{
+					"id": 28,
+					"name": "openDoc",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 29,
+							"name": "openDoc",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 30,
+									"name": "doc",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 29,
+							"character": 11
+						}
+					]
+				},
+				{
+					"id": 26,
+					"name": "setDoc",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 27,
+							"name": "setDoc",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 24,
+							"character": 10
+						}
+					]
+				},
+				{
+					"id": 23,
+					"name": "setDocs",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 24,
+							"name": "setDocs",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 25,
+									"name": "DocsData",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 20,
+							"character": 11
+						}
+					]
+				},
+				{
+					"id": 11,
+					"name": "states",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 22,
+							"name": "argToShow",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 17,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": " ``"
+						},
+						{
+							"id": 18,
+							"name": "components",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 13,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "false"
+						},
+						{
+							"id": 15,
+							"name": "dataProps",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 10,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "false"
+						},
+						{
+							"id": 16,
+							"name": "demo",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 11,
+									"character": 12
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "false"
+						},
+						{
+							"id": 17,
+							"name": "demoOverlay",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 12,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "false"
+						},
+						{
+							"id": 14,
+							"name": "getters",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 9,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "false"
+						},
+						{
+							"id": 13,
+							"name": "methods",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 8,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "false"
+						},
+						{
+							"id": 12,
+							"name": "props",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 7,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "false"
+						},
+						{
+							"id": 21,
+							"name": "sidebarState",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 16,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": " ``"
+						},
+						{
+							"id": 19,
+							"name": "tests",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 14,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "false"
+						},
+						{
+							"id": 20,
+							"name": "view",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/documentation-service.ts",
+									"line": 15,
+									"character": 12
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"\""
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								22,
+								18,
+								15,
+								16,
+								17,
+								14,
+								13,
+								12,
+								21,
+								19,
+								20
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/documentation-service.ts",
+							"line": 6,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						10,
+						8,
+						9
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						37,
+						31,
+						40,
+						34,
+						28,
+						26,
+						23
+					]
+				},
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						11
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "modules/docks/documentation-service.ts",
+					"line": 1,
+					"character": 26
+				}
+			]
+		},
+		{
+			"id": 237,
+			"name": "JsonViewerComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"decorators": [
+				{
+					"name": "Component",
+					"type": {
+						"type": "reference",
+						"name": "Component"
+					},
+					"arguments": {
+						"obj": "{\n    selector: 'app-json-viewer',\n    templateUrl: './json-viewer.component.html',\n    styleUrls: ['./json-viewer.component.scss']\n}"
+					}
+				}
+			],
+			"children": [
+				{
+					"id": 238,
+					"name": "json",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Input",
+							"type": {
+								"type": "reference",
+								"name": "Input"
+							},
+							"arguments": {
+								"bindingPropertyName": "'json'"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/json-viewer.component.ts",
+							"line": 13,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 239,
+					"name": "html",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {
+						"isExported": true
+					},
+					"getSignature": {
+						"id": 240,
+						"name": "__get",
+						"kind": 524288,
+						"kindString": "Get signature",
+						"flags": {},
+						"type": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/json-viewer.component.ts",
+							"line": 15,
+							"character": 12
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						238
+					]
+				},
+				{
+					"title": "Accessors",
+					"kind": 262144,
+					"children": [
+						239
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "modules/docks/json-viewer.component.ts",
+					"line": 10,
+					"character": 32
+				}
+			]
+		},
+		{
+			"id": 147,
+			"name": "RendererComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"decorators": [
+				{
+					"name": "Component",
+					"type": {
+						"type": "reference",
+						"name": "Component"
+					},
+					"arguments": {
+						"obj": "{\n    selector: 'app-renderer',\n    templateUrl: './renderer.component.html',\n    styleUrls: ['./renderer.component.scss']\n}"
+					}
+				}
+			],
+			"children": [
+				{
+					"id": 148,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 149,
+							"name": "new RendererComponent",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"name": "RendererComponent",
+								"id": 147
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/renderer.component.ts",
+							"line": 10,
+							"character": 32
+						}
+					]
+				},
+				{
+					"id": 150,
+					"name": "service",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/renderer.component.ts",
+							"line": 14,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "DocumentationService",
+						"id": 7
+					},
+					"defaultValue": " DocumentationService"
+				},
+				{
+					"id": 151,
+					"name": "testService",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/renderer.component.ts",
+							"line": 15,
+							"character": 15
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "TestService",
+						"id": 45
+					},
+					"defaultValue": " TestService"
+				},
+				{
+					"id": 176,
+					"name": "attributeProps",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {
+						"isExported": true
+					},
+					"getSignature": {
+						"id": 177,
+						"name": "__get",
+						"kind": 524288,
+						"kindString": "Get signature",
+						"flags": {},
+						"type": {
+							"type": "reflection",
+							"declaration": {
+								"id": 178,
+								"name": "__type",
+								"kind": 65536,
+								"kindString": "Type literal",
+								"flags": {},
+								"children": [
+									{
+										"id": 180,
+										"name": "columns",
+										"kind": 32,
+										"kindString": "Variable",
+										"flags": {},
+										"sources": [
+											{
+												"fileName": "modules/docks/renderer.component.ts",
+												"line": 64,
+												"character": 19
+											}
+										],
+										"type": {
+											"type": "array",
+											"elementType": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 181,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 182,
+																	"name": "key",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 65,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"name\""
+																},
+																{
+																	"id": 183,
+																	"name": "label",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 66,
+																			"character": 21
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"name\""
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		182,
+																		183
+																	]
+																}
+															]
+														}
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 184,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 185,
+																	"name": "key",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 68,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"type\""
+																},
+																{
+																	"id": 186,
+																	"name": "label",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 69,
+																			"character": 21
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"type\""
+																},
+																{
+																	"id": 187,
+																	"name": "required",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 70,
+																			"character": 24
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "boolean"
+																	},
+																	"defaultValue": "true"
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		185,
+																		186,
+																		187
+																	]
+																}
+															]
+														}
+													}
+												]
+											}
+										},
+										"defaultValue": " [{\n                key: 'name',\n                label: 'name'\n            }, {\n                key: 'type',\n                label: 'type',\n                required: true\n            }, {\n                key: 'description',\n                label: 'description',\n                required: true\n            }, {\n                key: 'testCases',\n                label: 'test cases'\n            // }, {\n            //     key: 'value',\n            //     label: 'value'\n            }]"
+									},
+									{
+										"id": 179,
+										"name": "data",
+										"kind": 32,
+										"kindString": "Variable",
+										"flags": {},
+										"sources": [
+											{
+												"fileName": "modules/docks/renderer.component.ts",
+												"line": 63,
+												"character": 16
+											}
+										],
+										"type": {
+											"type": "intrinsic",
+											"name": "any"
+										},
+										"defaultValue": " this.service.doc.children.attributeProperties"
+									}
+								],
+								"groups": [
+									{
+										"title": "Variables",
+										"kind": 32,
+										"children": [
+											180,
+											179
+										]
+									}
+								]
+							}
+						}
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/renderer.component.ts",
+							"line": 61,
+							"character": 22
+						}
+					]
+				},
+				{
+					"id": 188,
+					"name": "gettersProps",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {
+						"isExported": true
+					},
+					"getSignature": {
+						"id": 189,
+						"name": "__get",
+						"kind": 524288,
+						"kindString": "Get signature",
+						"flags": {},
+						"type": {
+							"type": "reflection",
+							"declaration": {
+								"id": 190,
+								"name": "__type",
+								"kind": 65536,
+								"kindString": "Type literal",
+								"flags": {},
+								"children": [
+									{
+										"id": 192,
+										"name": "columns",
+										"kind": 32,
+										"kindString": "Variable",
+										"flags": {},
+										"sources": [
+											{
+												"fileName": "modules/docks/renderer.component.ts",
+												"line": 88,
+												"character": 19
+											}
+										],
+										"type": {
+											"type": "array",
+											"elementType": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 193,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 194,
+																	"name": "key",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 89,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"name\""
+																},
+																{
+																	"id": 195,
+																	"name": "label",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 90,
+																			"character": 21
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"name\""
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		194,
+																		195
+																	]
+																}
+															]
+														}
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 196,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 197,
+																	"name": "key",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 92,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"description\""
+																},
+																{
+																	"id": 198,
+																	"name": "label",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 93,
+																			"character": 21
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"description\""
+																},
+																{
+																	"id": 199,
+																	"name": "required",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 94,
+																			"character": 24
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "boolean"
+																	},
+																	"defaultValue": "true"
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		197,
+																		198,
+																		199
+																	]
+																}
+															]
+														}
+													}
+												]
+											}
+										},
+										"defaultValue": " [{\n                key: 'name',\n                label: 'name'\n            }, {\n                key: 'description',\n                label: 'description',\n                required: true\n            }, {\n                key: 'returns',\n                label: 'returns'\n            }, {\n                key: 'testCases',\n                label: 'test cases'\n            }]"
+									},
+									{
+										"id": 191,
+										"name": "data",
+										"kind": 32,
+										"kindString": "Variable",
+										"flags": {},
+										"sources": [
+											{
+												"fileName": "modules/docks/renderer.component.ts",
+												"line": 87,
+												"character": 16
+											}
+										],
+										"type": {
+											"type": "intrinsic",
+											"name": "any"
+										},
+										"defaultValue": " this.service.doc.children.getters"
+									}
+								],
+								"groups": [
+									{
+										"title": "Variables",
+										"kind": 32,
+										"children": [
+											192,
+											191
+										]
+									}
+								]
+							}
+						}
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/renderer.component.ts",
+							"line": 85,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 164,
+					"name": "methods",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {
+						"isExported": true
+					},
+					"getSignature": {
+						"id": 165,
+						"name": "__get",
+						"kind": 524288,
+						"kindString": "Get signature",
+						"flags": {},
+						"type": {
+							"type": "reflection",
+							"declaration": {
+								"id": 166,
+								"name": "__type",
+								"kind": 65536,
+								"kindString": "Type literal",
+								"flags": {},
+								"children": [
+									{
+										"id": 168,
+										"name": "columns",
+										"kind": 32,
+										"kindString": "Variable",
+										"flags": {},
+										"sources": [
+											{
+												"fileName": "modules/docks/renderer.component.ts",
+												"line": 41,
+												"character": 19
+											}
+										],
+										"type": {
+											"type": "array",
+											"elementType": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 169,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 170,
+																	"name": "key",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 42,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"name\""
+																},
+																{
+																	"id": 171,
+																	"name": "label",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 43,
+																			"character": 21
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"name\""
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		170,
+																		171
+																	]
+																}
+															]
+														}
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 172,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 173,
+																	"name": "key",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 45,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"description\""
+																},
+																{
+																	"id": 174,
+																	"name": "label",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 46,
+																			"character": 21
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"description\""
+																},
+																{
+																	"id": 175,
+																	"name": "required",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 47,
+																			"character": 24
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "boolean"
+																	},
+																	"defaultValue": "true"
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		173,
+																		174,
+																		175
+																	]
+																}
+															]
+														}
+													}
+												]
+											}
+										},
+										"defaultValue": " [{\n                key: 'name',\n                label: 'name'\n            }, {\n                key: 'description',\n                label: 'description',\n                required: true\n            }, {\n                key: 'arguments',\n                label: 'arguments'\n            }, {\n                label: 'returns',\n                key: 'returns'\n            }, {\n                key: 'testCases',\n                label: 'test cases'\n            }]"
+									},
+									{
+										"id": 167,
+										"name": "data",
+										"kind": 32,
+										"kindString": "Variable",
+										"flags": {},
+										"sources": [
+											{
+												"fileName": "modules/docks/renderer.component.ts",
+												"line": 40,
+												"character": 16
+											}
+										],
+										"type": {
+											"type": "intrinsic",
+											"name": "any"
+										},
+										"defaultValue": " this.service.doc.children.methods"
+									}
+								],
+								"groups": [
+									{
+										"title": "Variables",
+										"kind": 32,
+										"children": [
+											168,
+											167
+										]
+									}
+								]
+							}
+						}
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/renderer.component.ts",
+							"line": 38,
+							"character": 15
+						}
+					]
+				},
+				{
+					"id": 152,
+					"name": "properties",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {
+						"isExported": true
+					},
+					"getSignature": {
+						"id": 153,
+						"name": "__get",
+						"kind": 524288,
+						"kindString": "Get signature",
+						"flags": {},
+						"type": {
+							"type": "reflection",
+							"declaration": {
+								"id": 154,
+								"name": "__type",
+								"kind": 65536,
+								"kindString": "Type literal",
+								"flags": {},
+								"children": [
+									{
+										"id": 156,
+										"name": "columns",
+										"kind": 32,
+										"kindString": "Variable",
+										"flags": {},
+										"sources": [
+											{
+												"fileName": "modules/docks/renderer.component.ts",
+												"line": 20,
+												"character": 19
+											}
+										],
+										"type": {
+											"type": "array",
+											"elementType": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 157,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 158,
+																	"name": "key",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 21,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"name\""
+																},
+																{
+																	"id": 159,
+																	"name": "label",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 22,
+																			"character": 21
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"name\""
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		158,
+																		159
+																	]
+																}
+															]
+														}
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 160,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 161,
+																	"name": "key",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 24,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"type\""
+																},
+																{
+																	"id": 162,
+																	"name": "label",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 25,
+																			"character": 21
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	},
+																	"defaultValue": "\"type\""
+																},
+																{
+																	"id": 163,
+																	"name": "required",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "modules/docks/renderer.component.ts",
+																			"line": 26,
+																			"character": 24
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "boolean"
+																	},
+																	"defaultValue": "true"
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		161,
+																		162,
+																		163
+																	]
+																}
+															]
+														}
+													}
+												]
+											}
+										},
+										"defaultValue": " [{\n                key: 'name',\n                label: 'name'\n            }, {\n                key: 'type',\n                label: 'type',\n                required: true\n            }, {\n                key: 'description',\n                label: 'description',\n                required: true\n            }, {\n                key: 'testCases',\n                label: 'test cases'\n            }]"
+									},
+									{
+										"id": 155,
+										"name": "data",
+										"kind": 32,
+										"kindString": "Variable",
+										"flags": {},
+										"sources": [
+											{
+												"fileName": "modules/docks/renderer.component.ts",
+												"line": 19,
+												"character": 16
+											}
+										],
+										"type": {
+											"type": "intrinsic",
+											"name": "any"
+										},
+										"defaultValue": " this.service.doc.children.properties"
+									}
+								],
+								"groups": [
+									{
+										"title": "Variables",
+										"kind": 32,
+										"children": [
+											156,
+											155
+										]
+									}
+								]
+							}
+						}
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/renderer.component.ts",
+							"line": 17,
+							"character": 18
+						}
+					]
+				},
+				{
+					"id": 200,
+					"name": "hasProperties",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 201,
+							"name": "hasProperties",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 202,
+									"name": "type",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/renderer.component.ts",
+							"line": 105,
+							"character": 17
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						148
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						150,
+						151
+					]
+				},
+				{
+					"title": "Accessors",
+					"kind": 262144,
+					"children": [
+						176,
+						188,
+						164,
+						152
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						200
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "modules/docks/renderer.component.ts",
+					"line": 10,
+					"character": 30
+				}
+			]
+		},
+		{
+			"id": 123,
+			"name": "SidebarComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"decorators": [
+				{
+					"name": "Component",
+					"type": {
+						"type": "reference",
+						"name": "Component"
+					},
+					"arguments": {
+						"obj": "{\n    selector: 'app-sidebar',\n    templateUrl: './sidebar.component.html',\n    styleUrls: ['./sidebar.component.scss']\n}"
+					}
+				}
+			],
+			"children": [
+				{
+					"id": 124,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 125,
+							"name": "new SidebarComponent",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"name": "SidebarComponent",
+								"id": 123
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/sidebar.component.ts",
+							"line": 10,
+							"character": 31
+						}
+					]
+				},
+				{
+					"id": 126,
+					"name": "service",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/sidebar.component.ts",
+							"line": 14,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "DocumentationService",
+						"id": 7
+					},
+					"defaultValue": " DocumentationService"
+				},
+				{
+					"id": 127,
+					"name": "testService",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/sidebar.component.ts",
+							"line": 15,
+							"character": 15
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "TestService",
+						"id": 45
+					},
+					"defaultValue": " TestService"
+				},
+				{
+					"id": 130,
+					"name": "linkNames",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {
+						"isExported": true
+					},
+					"getSignature": {
+						"id": 131,
+						"name": "__get",
+						"kind": 524288,
+						"kindString": "Get signature",
+						"flags": {},
+						"type": {
+							"type": "reference",
+							"name": "Array",
+							"typeArguments": [
+								{
+									"type": "array",
+									"elementType": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							]
+						}
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/sidebar.component.ts",
+							"line": 21,
+							"character": 17
+						}
+					]
+				},
+				{
+					"id": 128,
+					"name": "typeNames",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {
+						"isExported": true
+					},
+					"getSignature": {
+						"id": 129,
+						"name": "__get",
+						"kind": 524288,
+						"kindString": "Get signature",
+						"flags": {},
+						"type": {
+							"type": "array",
+							"elementType": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/sidebar.component.ts",
+							"line": 17,
+							"character": 17
+						}
+					]
+				},
+				{
+					"id": 140,
+					"name": "getDocLink",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 141,
+							"name": "getDocLink",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 142,
+									"name": "docLinkName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 143,
+									"name": "typeName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/sidebar.component.ts",
+							"line": 35,
+							"character": 14
+						}
+					]
+				},
+				{
+					"id": 132,
+					"name": "getLink",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 133,
+							"name": "getLink",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 134,
+									"name": "docLinkName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 135,
+									"name": "typeName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/sidebar.component.ts",
+							"line": 26,
+							"character": 11
+						}
+					]
+				},
+				{
+					"id": 136,
+					"name": "isDocumented",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 137,
+							"name": "isDocumented",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 138,
+									"name": "docLinkName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 139,
+									"name": "typeName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/sidebar.component.ts",
+							"line": 30,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 144,
+					"name": "setSidebarState",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 145,
+							"name": "setSidebarState",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 146,
+									"name": "state",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/sidebar.component.ts",
+							"line": 39,
+							"character": 19
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						124
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						126,
+						127
+					]
+				},
+				{
+					"title": "Accessors",
+					"kind": 262144,
+					"children": [
+						130,
+						128
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						140,
+						132,
+						136,
+						144
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "modules/docks/sidebar.component.ts",
+					"line": 10,
+					"character": 29
+				}
+			]
+		},
+		{
+			"id": 203,
+			"name": "TableRendererComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"decorators": [
+				{
+					"name": "Component",
+					"type": {
+						"type": "reference",
+						"name": "Component"
+					},
+					"arguments": {
+						"obj": "{\n    selector: 'app-table-renderer',\n    templateUrl: './table-renderer.component.html',\n    styleUrls: ['./table-renderer.component.scss']\n}"
+					}
+				}
+			],
+			"children": [
+				{
+					"id": 204,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 205,
+							"name": "new TableRendererComponent",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"name": "TableRendererComponent",
+								"id": 203
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 10,
+							"character": 37
+						}
+					]
+				},
+				{
+					"id": 209,
+					"name": "properties",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Input",
+							"type": {
+								"type": "reference",
+								"name": "Input"
+							},
+							"arguments": {
+								"bindingPropertyName": "'properties'"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 21,
+							"character": 14
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 206,
+					"name": "service",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 14,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "DocumentationService",
+						"id": 7
+					},
+					"defaultValue": " DocumentationService"
+				},
+				{
+					"id": 208,
+					"name": "show",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Input",
+							"type": {
+								"type": "reference",
+								"name": "Input"
+							},
+							"arguments": {
+								"bindingPropertyName": "'show'"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 18,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 207,
+					"name": "testService",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 15,
+							"character": 15
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "TestService",
+						"id": 45
+					},
+					"defaultValue": " TestService"
+				},
+				{
+					"id": 210,
+					"name": "propertiesDataKeys",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {
+						"isExported": true
+					},
+					"getSignature": {
+						"id": 211,
+						"name": "__get",
+						"kind": 524288,
+						"kindString": "Get signature",
+						"flags": {},
+						"type": {
+							"type": "array",
+							"elementType": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 23,
+							"character": 26
+						}
+					]
+				},
+				{
+					"id": 216,
+					"name": "getDocData",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 217,
+							"name": "getDocData",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 218,
+									"name": "docLinkName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 219,
+									"name": "typeName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 31,
+							"character": 14
+						}
+					]
+				},
+				{
+					"id": 212,
+					"name": "getLink",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 213,
+							"name": "getLink",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 214,
+									"name": "docLinkName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 215,
+									"name": "typeName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 27,
+							"character": 11
+						}
+					]
+				},
+				{
+					"id": 233,
+					"name": "hasArguments",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 234,
+							"name": "hasArguments",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 235,
+									"name": "row",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 236,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 51,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 229,
+					"name": "hasTest",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 230,
+							"name": "hasTest",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 231,
+									"name": "row",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 232,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 47,
+							"character": 11
+						}
+					]
+				},
+				{
+					"id": 226,
+					"name": "isString",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 227,
+							"name": "isString",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 228,
+									"name": "val",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 43,
+							"character": 12
+						}
+					]
+				},
+				{
+					"id": 220,
+					"name": "showJsonViewer",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 221,
+							"name": "showJsonViewer",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 222,
+									"name": "val",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 35,
+							"character": 18
+						}
+					]
+				},
+				{
+					"id": 223,
+					"name": "showText",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 224,
+							"name": "showText",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 225,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/table-renderer.component.ts",
+							"line": 39,
+							"character": 12
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						204
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						209,
+						206,
+						208,
+						207
+					]
+				},
+				{
+					"title": "Accessors",
+					"kind": 262144,
+					"children": [
+						210
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						216,
+						212,
+						233,
+						229,
+						226,
+						220,
+						223
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "modules/docks/table-renderer.component.ts",
+					"line": 10,
+					"character": 35
+				}
+			]
+		},
+		{
+			"id": 45,
+			"name": "TestService",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"children": [
+				{
+					"id": 46,
+					"name": "doc",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 4,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 53,
+					"name": "flatTests",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 12,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 47,
+					"name": "openedDoc",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 5,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "\"doc-active-dropdown\""
+				},
+				{
+					"id": 61,
+					"name": "shownTestsState",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 21,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": " ``"
+				},
+				{
+					"id": 52,
+					"name": "tests",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 11,
+							"character": 9
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 106,
+					"name": "getFormatedTime",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 107,
+							"name": "getFormatedTime",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 108,
+									"name": "timestamp",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 398,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 73,
+					"name": "getTestAssertResult",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 74,
+							"name": "getTestAssertResult",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 75,
+									"name": "doc",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 76,
+									"name": "testName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 77,
+									"name": "index",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 123,
+							"character": 23
+						}
+					]
+				},
+				{
+					"id": 86,
+					"name": "getTests",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 87,
+							"name": "getTests",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 88,
+									"name": "doc",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 166,
+							"character": 12
+						}
+					]
+				},
+				{
+					"id": 78,
+					"name": "hasTestAsserts",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 79,
+							"name": "hasTestAsserts",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 80,
+									"name": "doc",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 81,
+									"name": "testIndex",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 131,
+							"character": 18
+						}
+					]
+				},
+				{
+					"id": 69,
+					"name": "hasTestPassed",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 70,
+							"name": "hasTestPassed",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 71,
+									"name": "doc",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 72,
+									"name": "testName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 114,
+							"character": 17
+						}
+					]
+				},
+				{
+					"id": 65,
+					"name": "hasTestRan",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 66,
+							"name": "hasTestRan",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 67,
+									"name": "doc",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 68,
+									"name": "testName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 105,
+							"character": 14
+						}
+					]
+				},
+				{
+					"id": 82,
+					"name": "isTestRunning",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 83,
+							"name": "isTestRunning",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 84,
+									"name": "doc",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 85,
+									"name": "testName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 153,
+							"character": 17
+						}
+					]
+				},
+				{
+					"id": 89,
+					"name": "runAsserts",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 90,
+							"name": "runAsserts",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 91,
+									"name": "test",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "Object"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 175,
+							"character": 14
+						}
+					]
+				},
+				{
+					"id": 92,
+					"name": "runTest",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 93,
+							"name": "runTest",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 94,
+									"name": "test",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 95,
+									"name": "groupKey",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 96,
+									"name": "type",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "Object"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 234,
+							"character": 11
+						}
+					]
+				},
+				{
+					"id": 97,
+					"name": "runTestGroup",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 98,
+							"name": "runTestGroup",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 99,
+									"name": "group",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 100,
+									"name": "type",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "Object"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 319,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 101,
+					"name": "runTests",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 102,
+							"name": "runTests",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"tags": [
+									{
+										"tag": "desc",
+										"text": "Runs all tests"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 103,
+									"name": "test",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"text": "testing param description\n"
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 104,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 105,
+															"name": "id",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "modules/docks/test-service.ts",
+																	"line": 362,
+																	"character": 24
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																105
+															]
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Promise",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "Object"
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 362,
+							"character": 12
+						}
+					]
+				},
+				{
+					"id": 62,
+					"name": "setTests",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 63,
+							"name": "setTests",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 64,
+									"name": "tests",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 23,
+							"character": 12
+						}
+					]
+				},
+				{
+					"id": 48,
+					"name": "testResults",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 50,
+							"name": "tests",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/test-service.ts",
+									"line": 8,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 51,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									}
+								}
+							}
+						},
+						{
+							"id": 49,
+							"name": "testsAreRunning",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/test-service.ts",
+									"line": 7,
+									"character": 23
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "false"
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								50,
+								49
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 6,
+							"character": 15
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 54,
+					"name": "testTypes",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 55,
+							"name": "class",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/test-service.ts",
+									"line": 14,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "never"
+								}
+							},
+							"defaultValue": " []"
+						},
+						{
+							"id": 56,
+							"name": "components",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/test-service.ts",
+									"line": 15,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "never"
+								}
+							},
+							"defaultValue": " []"
+						},
+						{
+							"id": 59,
+							"name": "interfaces",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/test-service.ts",
+									"line": 18,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "never"
+								}
+							},
+							"defaultValue": " []"
+						},
+						{
+							"id": 57,
+							"name": "modules",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/test-service.ts",
+									"line": 16,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "never"
+								}
+							},
+							"defaultValue": " []"
+						},
+						{
+							"id": 58,
+							"name": "object literals",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/test-service.ts",
+									"line": 17,
+									"character": 25
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "never"
+								}
+							},
+							"defaultValue": " []"
+						},
+						{
+							"id": 60,
+							"name": "variable",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "modules/docks/test-service.ts",
+									"line": 19,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "never"
+								}
+							},
+							"defaultValue": " []"
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								55,
+								56,
+								59,
+								57,
+								58,
+								60
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/test-service.ts",
+							"line": 13,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						46,
+						53,
+						47,
+						61,
+						52
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						106,
+						73,
+						86,
+						78,
+						69,
+						65,
+						82,
+						89,
+						92,
+						97,
+						101,
+						62
+					]
+				},
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						48,
+						54
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "modules/docks/test-service.ts",
+					"line": 3,
+					"character": 17
+				}
+			]
+		},
+		{
+			"id": 241,
+			"name": "ViewerInputComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"decorators": [
+				{
+					"name": "Component",
+					"type": {
+						"type": "reference",
+						"name": "Component"
+					},
+					"arguments": {
+						"obj": "{\n    selector: 'app-value-input',\n    templateUrl: './value-input.component.html',\n    styleUrls: ['./value-input.component.scss']\n}"
+					}
+				}
+			],
+			"children": [
+				{
+					"id": 242,
+					"name": "model",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Input",
+							"type": {
+								"type": "reference",
+								"name": "Input"
+							},
+							"arguments": {
+								"bindingPropertyName": "'model'"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/value-input.component.ts",
+							"line": 12,
+							"character": 9
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 243,
+					"name": "proxyModel",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/value-input.component.ts",
+							"line": 14,
+							"character": 14
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": " ``"
+				},
+				{
+					"id": 244,
+					"name": "type",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "modules/docks/value-input.component.ts",
+							"line": 16,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": " `string`"
+				},
+				{
+					"id": 245,
+					"name": "getProxyModel",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 246,
+							"name": "getProxyModel",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/value-input.component.ts",
+							"line": 18,
+							"character": 17
+						}
+					]
+				},
+				{
+					"id": 249,
+					"name": "ngOnInit",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 250,
+							"name": "ngOnInit",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/value-input.component.ts",
+							"line": 61,
+							"character": 12
+						}
+					]
+				},
+				{
+					"id": 251,
+					"name": "showTextarea",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 252,
+							"name": "showTextarea",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/value-input.component.ts",
+							"line": 68,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 247,
+					"name": "updateVal",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 248,
+							"name": "updateVal",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/docks/value-input.component.ts",
+							"line": 38,
+							"character": 13
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						242,
+						243,
+						244
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						245,
+						249,
+						251,
+						247
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "modules/docks/value-input.component.ts",
+					"line": 9,
+					"character": 33
+				}
+			],
+			"implementedTypes": [
+				{
+					"type": "reference",
+					"name": "OnInit"
+				}
+			]
+		},
+		{
+			"id": 257,
+			"name": "context",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {
+				"isConst": true
+			},
+			"sources": [
+				{
+					"fileName": "test.ts",
+					"line": 18,
+					"character": 13
+				}
+			],
+			"type": {
+				"type": "intrinsic",
+				"name": "any"
+			},
+			"defaultValue": " require.context('./', true, /\\.spec\\.ts$/)"
+		},
+		{
+			"id": 4,
+			"name": "require",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isConst": true
+			},
+			"signatures": [
+				{
+					"id": 5,
+					"name": "require",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"parameters": [
+						{
+							"id": 6,
+							"name": "path",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "app/app.component.ts",
+					"line": 2,
+					"character": 24
+				},
+				{
+					"fileName": "test.ts",
+					"line": 10,
+					"character": 21
+				}
+			]
+		},
+		{
+			"id": 255,
+			"name": "environment",
+			"kind": 2097152,
+			"kindString": "Object literal",
+			"flags": {
+				"isExported": true,
+				"isConst": true
+			},
+			"children": [
+				{
+					"id": 256,
+					"name": "production",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "environments/environment.prod.ts",
+							"line": 2,
+							"character": 12
+						},
+						{
+							"fileName": "environments/environment.ts",
+							"line": 6,
+							"character": 12
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "false"
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						256
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "environments/environment.prod.ts",
+					"line": 1,
+					"character": 24
+				},
+				{
+					"fileName": "environments/environment.ts",
+					"line": 5,
+					"character": 24
+				}
+			],
+			"type": {
+				"type": "intrinsic",
+				"name": "object"
+			}
+		}
+	],
+	"groups": [
+		{
+			"title": "Classes",
+			"kind": 128,
+			"children": [
+				1,
+				254,
+				109,
+				253,
+				7,
+				237,
+				147,
+				123,
+				203,
+				45,
+				241
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				257
+			]
+		},
+		{
+			"title": "Functions",
+			"kind": 64,
+			"children": [
+				4
+			]
+		},
+		{
+			"title": "Object literals",
+			"kind": 2097152,
+			"children": [
+				255
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+<div class="doc-sidebar">
+    <div *ngFor="let typeName of typeNames; let typeIndex = index">
+        <div class="sidebar-heading group" [ngClass]="{active: service.states.sidebarState === typeName}" (click)="setSidebarState(typeName)">{{typeName}}</div>
+        <div [ngClass]="{shown: service.states.sidebarState === typeName}" class="link-group">
+            <div class="doc-sidebar-link" *ngFor="let docLinkName of linkNames[typeIndex]" (click)="service.openDoc(getLink(docLinkName, typeName))">
+                <span *ngIf="isDocumented(docLinkName, typeName)" class="red-flag"></span>
+                <span>{{getDocLink(docLinkName, typeName).name}}</span>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="testService.tests">
+        <div class="sidebar-heading" (click)="service.states.view = 'tests'">Tests</div>
+    </div>
+</div>
