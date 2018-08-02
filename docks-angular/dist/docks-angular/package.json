@@ -1,15 +1,24 @@
 {
   "name": "docks-angular",
   "version": "1.0.17",
-  "main": "bundles/docks-angular.umd.js",
-  "module": "fesm5/docks-angular.js",
-  "es2015": "fesm2015/docks-angular.js",
-  "esm5": "esm5/docks-angular.js",
-  "esm2015": "esm2015/docks-angular.js",
-  "fesm5": "fesm5/docks-angular.js",
-  "fesm2015": "fesm2015/docks-angular.js",
-  "typings": "docks-angular.d.ts",
-  "metadata": "docks-angular.metadata.json",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod docks-angular && cd dist/docks-angular && npm pack",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "packagr": "ng-packagr -p ng-package.json"
+  },
+  "main": "dist/bundles/docks-angular.umd.js",
+  "module": "dist/fesm5/docks-angular.js",
+  "es2015": "dist/fesm2015/docks-angular.js",
+  "esm5": "dist/esm5/docks-angular.js",
+  "esm2015": "dist/esm2015/docks-angular.js",
+  "fesm5": "dist/fesm5/docks-angular.js",
+  "fesm2015": "dist/fesm2015/docks-angular.js",
+  "typings": "dist/docks-angular.d.ts",
+  "metadata": "dist/docks-angular.metadata.json",
   "sideEffects": false,
   "dependencies": {
     "@angular/animations": "^6.1.0",
@@ -24,8 +33,7 @@
     "core-js": "^2.5.4",
     "json-formatter-js": "^2.2.0",
     "rxjs": "^6.0.0",
-    "zone.js": "~0.8.26",
-    "tslib": "^1.9.0"
+    "zone.js": "~0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",

@@ -19,6 +19,16 @@
     ]
   },
   "include": [
-    "./src/modules/docks/**"
+    "src/main.ts",
+    "src/polyfills.ts",
+    "src/modules/docks/docks.component.ts",
+    "src/modules/docks/docks.module.ts",
+    "src/modules/docks/documentation-service.ts",
+    "src/modules/docks/json-viewer.component.ts",
+    "src/modules/docks/renderer.component.ts",
+    "src/modules/docks/sidebar.component.ts",
+    "src/modules/docks/table-renderer.component.ts",
+    "src/modules/docks/test-service.ts",
+    "src/modules/docks/value-input.component.ts"
   ]
 }
