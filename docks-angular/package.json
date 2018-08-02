@@ -1,6 +1,6 @@
 {
   "name": "docks-angular",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ng-package.json"
   },
-  "main": "./docks-angular/dist/src/modules/docks/docks.module.d.ts",
+  "main": "./docks-angular/dist/docks-angular.d.ts",
   "dependencies": {
     "@angular/animations": "^6.1.0",
     "@angular/common": "^6.1.0",
