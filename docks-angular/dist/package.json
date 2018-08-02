@@ -1,6 +1,16 @@
 {
   "name": "docks-angular",
-  "version": "1.0.4",
+  "version": "1.0.15",
+  "main": "bundles/docks-angular.umd.js",
+  "module": "fesm5/docks-angular.js",
+  "es2015": "fesm2015/docks-angular.js",
+  "esm5": "esm5/docks-angular.js",
+  "esm2015": "esm2015/docks-angular.js",
+  "fesm5": "fesm5/docks-angular.js",
+  "fesm2015": "fesm2015/docks-angular.js",
+  "typings": "docks-angular.d.ts",
+  "metadata": "docks-angular.metadata.json",
+  "sideEffects": false,
   "dependencies": {
     "@angular/animations": "^6.1.0",
     "@angular/common": "^6.1.0",
@@ -41,15 +51,5 @@
     "tslint": "~5.9.1",
     "typedock": "latest",
     "typescript": "~2.7.2"
-  },
-  "main": "bundles/docks-angular.umd.js",
-  "module": "fesm5/docks-angular.js",
-  "es2015": "fesm2015/docks-angular.js",
-  "esm5": "esm5/docks-angular.js",
-  "esm2015": "esm2015/docks-angular.js",
-  "fesm5": "fesm5/docks-angular.js",
-  "fesm2015": "fesm2015/docks-angular.js",
-  "typings": "docks-angular.d.ts",
-  "metadata": "docks-angular.metadata.json",
-  "sideEffects": false
+  }
 }
