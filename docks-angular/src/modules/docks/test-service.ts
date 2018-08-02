@@ -1,6 +1,6 @@
-import DocumentationService from './documentation-service'
+import { DocumentationService } from './documentation-service'
 
-class TestService {
+export class testService {
     doc: any = {}
     openedDoc = 'doc-active-dropdown'
     testResults: any = {
@@ -412,4 +412,4 @@ class TestService {
     }
 }
 
-export default new TestService()
+export let TestService = new testService()

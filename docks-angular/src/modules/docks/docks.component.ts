@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import DocumentationService from './documentation-service'
-import TestService from './test-service'
+import { DocumentationService } from './documentation-service'
+import { TestService } from './test-service'
 
 @Component({
     selector: 'app-docks',
@@ -9,10 +9,8 @@ import TestService from './test-service'
 })
 export class DocksComponent implements OnInit {
 
-    constructor() { }
-
-    service = DocumentationService
-    testService = TestService
+    service: any = DocumentationService
+    testService: any = TestService
 
     @Input('docs')
     docs: any

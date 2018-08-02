@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import DocumentationService from './documentation-service'
-import TestService from './test-service'
+import { DocumentationService } from './documentation-service'
+import { TestService } from './test-service'
 
 @Component({
     selector: 'app-renderer',
@@ -11,8 +11,8 @@ export class RendererComponent {
 
     constructor() { }
 
-    service = DocumentationService
-    testService = TestService
+    service: any = DocumentationService
+    testService: any = TestService
 
     get properties() {
         return {
@@ -75,9 +75,9 @@ export class RendererComponent {
             }, {
                 key: 'testCases',
                 label: 'test cases'
-            // }, {
-            //     key: 'value',
-            //     label: 'value'
+                // }, {
+                //     key: 'value',
+                //     label: 'value'
             }]
         }
     }

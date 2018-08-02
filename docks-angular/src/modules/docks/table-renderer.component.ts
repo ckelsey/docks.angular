@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import DocumentationService from './documentation-service'
-import TestService from './test-service'
+import { DocumentationService } from './documentation-service'
+import { TestService } from './test-service'
 
 @Component({
     selector: 'app-table-renderer',
@@ -11,8 +11,8 @@ export class TableRendererComponent {
 
     constructor() { }
 
-    service = DocumentationService
-    testService = TestService
+    service: any = DocumentationService
+    testService: any = TestService
 
     @Input('show')
     show: boolean
@@ -56,7 +56,7 @@ export class TableRendererComponent {
         const val = this.service.getThis(this.properties.data, `${row}.${key}`)
         const length = (Array.isArray(val) ? val : []).length
 
-        if (!length){
+        if (!length) {
             return false
         }
 
@@ -64,11 +64,11 @@ export class TableRendererComponent {
 
         val.forEach(element => {
             console.log(element)
-            if(!element.hasOwnProperty || !element.hasOwnProperty(`name`)){
+            if (!element.hasOwnProperty || !element.hasOwnProperty(`name`)) {
                 pass = false
             }
         });
-        
+
         return pass
     }
 }

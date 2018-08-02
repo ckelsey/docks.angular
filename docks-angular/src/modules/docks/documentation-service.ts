@@ -1,4 +1,4 @@
-class DocumentationService {
+export class documentationService {
     doc: any = {}
     openedDoc = 'doc-active-dropdown'
     DocsData: any = {}
@@ -113,6 +113,10 @@ class DocumentationService {
 
         return result
     }
+
+    constructor() {
+        return this
+    }
 }
 
-export default new DocumentationService()
+export let DocumentationService = new documentationService()

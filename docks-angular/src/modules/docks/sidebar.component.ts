@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import DocumentationService from './documentation-service'
-import TestService from './test-service'
+import { DocumentationService } from './documentation-service'
+import { TestService } from './test-service'
 
 @Component({
     selector: 'app-sidebar',
@@ -11,8 +11,8 @@ export class SidebarComponent {
 
     constructor() { }
 
-    service = DocumentationService
-    testService = TestService
+    service: any = DocumentationService
+    testService: any = TestService
 
     get typeNames(): string[] {
         return Object.keys(this.service.DocsData)
