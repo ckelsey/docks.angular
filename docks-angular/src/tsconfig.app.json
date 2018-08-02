@@ -7,5 +7,18 @@
   "exclude": [
     "src/test.ts",
     "**/*.spec.ts"
+  ],
+  "include": [
+    "main.ts",
+    "polyfills.ts",
+    "modules/docks/docks.component.ts",
+    "modules/docks/docks.module.ts",
+    "modules/docks/documentation-service.ts",
+    "modules/docks/json-viewer.component.ts",
+    "modules/docks/renderer.component.ts",
+    "modules/docks/sidebar.component.ts",
+    "modules/docks/table-renderer.component.ts",
+    "modules/docks/test-service.ts",
+    "modules/docks/value-input.component.ts"
   ]
 }
