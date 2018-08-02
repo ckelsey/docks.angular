@@ -1,0 +1,8 @@
+src
+node_modules
+docks
+e2e
+angular.json
+.editorconfig
+gulpFile.js
+ng-package.json
