@@ -1,15 +1,6 @@
 {
   "name": "docks-angular",
   "version": "1.0.3",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "packagr": "ng-packagr -p ng-package.json"
-  },
   "dependencies": {
     "@angular/animations": "^6.1.0",
     "@angular/common": "^6.1.0",
@@ -23,7 +14,8 @@
     "core-js": "^2.5.4",
     "json-formatter-js": "^2.2.0",
     "rxjs": "^6.0.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "tslib": "^1.9.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
@@ -49,5 +41,15 @@
     "tslint": "~5.9.1",
     "typedock": "latest",
     "typescript": "~2.7.2"
-  }
+  },
+  "main": "bundles/docks-angular.umd.js",
+  "module": "fesm5/docks-angular.js",
+  "es2015": "fesm2015/docks-angular.js",
+  "esm5": "esm5/docks-angular.js",
+  "esm2015": "esm2015/docks-angular.js",
+  "fesm5": "fesm5/docks-angular.js",
+  "fesm2015": "fesm2015/docks-angular.js",
+  "typings": "docks-angular.d.ts",
+  "metadata": "docks-angular.metadata.json",
+  "sideEffects": false
 }
