@@ -9,6 +9,7 @@
         "json-formatter-js",
         "rxjs",
         "zone.js",
-        "typedock"
+        "typedock",
+        "typedoc"
     ]
 }
