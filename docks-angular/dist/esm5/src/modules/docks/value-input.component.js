@@ -1,6 +1,6 @@
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 import { Component, Input } from '@angular/core';
 var ViewerInputComponent = /** @class */ (function () {
@@ -92,7 +92,7 @@ var ViewerInputComponent = /** @class */ (function () {
     return ViewerInputComponent;
 }());
 export { ViewerInputComponent };
-function ViewerInputComponent_tsickle_Closure_declarations() {
+if (false) {
     /** @type {?} */
     ViewerInputComponent.prototype.model;
     /** @type {?} */

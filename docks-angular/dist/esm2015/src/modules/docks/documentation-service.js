@@ -1,6 +1,6 @@
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 export class documentationService {
     constructor() {
@@ -132,7 +132,7 @@ export class documentationService {
         return result;
     }
 }
-function documentationService_tsickle_Closure_declarations() {
+if (false) {
     /** @type {?} */
     documentationService.prototype.doc;
     /** @type {?} */

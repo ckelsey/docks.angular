@@ -1,6 +1,6 @@
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 var documentationService = /** @class */ (function () {
     function documentationService() {
@@ -170,7 +170,7 @@ var documentationService = /** @class */ (function () {
     return documentationService;
 }());
 export { documentationService };
-function documentationService_tsickle_Closure_declarations() {
+if (false) {
     /** @type {?} */
     documentationService.prototype.doc;
     /** @type {?} */

@@ -1,6 +1,6 @@
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 import { Component, Input } from '@angular/core';
 import { DocumentationService } from './documentation-service';
@@ -139,7 +139,7 @@ var TableRendererComponent = /** @class */ (function () {
     return TableRendererComponent;
 }());
 export { TableRendererComponent };
-function TableRendererComponent_tsickle_Closure_declarations() {
+if (false) {
     /** @type {?} */
     TableRendererComponent.prototype.service;
     /** @type {?} */

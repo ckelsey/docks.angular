@@ -1,6 +1,6 @@
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 import { Component } from '@angular/core';
 import { DocumentationService } from './documentation-service';
@@ -101,7 +101,7 @@ var SidebarComponent = /** @class */ (function () {
     return SidebarComponent;
 }());
 export { SidebarComponent };
-function SidebarComponent_tsickle_Closure_declarations() {
+if (false) {
     /** @type {?} */
     SidebarComponent.prototype.service;
     /** @type {?} */

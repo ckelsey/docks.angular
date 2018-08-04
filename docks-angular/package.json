@@ -1,6 +1,6 @@
 {
   "name": "docks-angular",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -34,7 +34,8 @@
     "json-formatter-js": "^2.2.0",
     "rxjs": "^6.0.0",
     "zone.js": "~0.8.26",
-    "typedock": "latest"
+    "typedock": "latest",
+    "typedoc": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",

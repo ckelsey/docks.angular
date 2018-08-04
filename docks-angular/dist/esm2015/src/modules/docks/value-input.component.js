@@ -1,6 +1,6 @@
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 import { Component, Input } from '@angular/core';
 export class ViewerInputComponent {
@@ -83,7 +83,7 @@ ViewerInputComponent.decorators = [
 ViewerInputComponent.propDecorators = {
     model: [{ type: Input, args: ['model',] }]
 };
-function ViewerInputComponent_tsickle_Closure_declarations() {
+if (false) {
     /** @type {?} */
     ViewerInputComponent.prototype.model;
     /** @type {?} */

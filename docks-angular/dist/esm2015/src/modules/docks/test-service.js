@@ -1,6 +1,6 @@
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 import { DocumentationService } from './documentation-service';
 export class testService {
@@ -430,7 +430,7 @@ export class testService {
         return ``;
     }
 }
-function testService_tsickle_Closure_declarations() {
+if (false) {
     /** @type {?} */
     testService.prototype.doc;
     /** @type {?} */
