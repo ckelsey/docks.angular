@@ -1,6 +1,6 @@
 {
   "name": "docks-angular",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "main": "bundles/docks-angular.umd.js",
   "module": "fesm5/docks-angular.js",
   "es2015": "fesm2015/docks-angular.js",
